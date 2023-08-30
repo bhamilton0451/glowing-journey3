@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS - Atividade 3</title>
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="keywords" content="bes017, WEB, 200021401">
+  <meta name="author" content="Bryan Montgomery Hamilton">
+  <meta name="description" content="Atividade sobre CSS">
+</head>
+
+<body>
+  <form action="dados.html" method="post">
+
+    <div id="textboxes">
+      <label for="Nome">Nome de Usuário:</label><br>
+      <input type="text" id="Nome" name="Nome"><br>
+      <br>
+
+      <label for="email">E-Mail:</label><br>
+      <input type="text" id="email" name="email"><br>
+      <br>
+
+      <label for="phone">Telefone:</label><br>
+      <input type="text" id="phone" name="phone"><br>
+      <br>
+    </div>
+
+    <div id=selection>
+      <select>
+        <option selected value=0>--</option>
+        <option value=1>Doce</option>
+        <option value=2>Salgado</option>
+        <option value=3>Picante</option>
+      </select>
+    </div>
+
+    <br>
+
+    <div id="checkboxes">
+      <input type="checkbox" name="Doce" value=1>Doce<br>
+      <input type="checkbox" name="Salgado" value=2>Salgado<br>
+      <input type="checkbox" name="Picante" value=3>Picante<br>
+    </div>
+
+    <br>
+
+    <div id="comentario">
+      <label for="commentario">Comentários:</label><br>
+      <textarea id="comentario" name="comentario" rows="30" cols="30">Insira comentário aqui.</textarea>
+    </div>
+
+    <br>
+    <br>
+
+    <div id="datetime">
+      <input type="datetime-local" value="2022-01-01T00:01" min="1970-01-01T00:01" max="2099-11-31T23:59" />
+    </div>
+
+    <br>
+    <br>
+
+    <div id="control">
+      <input type="reset" value="Apagar">&nbsp; &nbsp;
+      <input type="submit" value="Enviar"><br>
+    </div>
+
+  </form>
+
+</body>
+
+</html>
